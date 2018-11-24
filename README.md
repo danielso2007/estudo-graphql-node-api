@@ -165,3 +165,8 @@ Bcrypt otimizado em JavaScript com dependências zero. Compatível com a ligaç�
 
 `npm i -D -E @types/bcryptjs`
 
+# Lodash
+
+Uma moderna biblioteca de utilitários JavaScript que oferece modularidade, desempenho e extras.
+
+`npm i -S -E lodash && npm i -D -E @types/lodash`

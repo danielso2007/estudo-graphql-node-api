@@ -14,7 +14,7 @@ export const userResolvers = {
 
     User: {
 
-        posts: (user, { first = 10, offset = 0 }, { db, requestedFields }: { db: DbConnection, requestedFields: RequestedFields }, info: GraphQLResolveInfo) => {
+        posts: (user: UserInstance, { first = 10, offset = 0 }, { db, requestedFields }: { db: DbConnection, requestedFields: RequestedFields }, info: GraphQLResolveInfo) => {
             return db.Post
                 .findAll({
                     where: { author: user.get('id') },
