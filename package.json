@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "node_modules/.bin/tsc"
+    "compile": "node_modules/.bin/tsc",
+    "gulp": "node_modules/.bin/gulp"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-clean": "0.4.0",
+    "gulp-typescript": "5.0.0-alpha.3",
     "typescript": "3.1.6"
   }
 }
