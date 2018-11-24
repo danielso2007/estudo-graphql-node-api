@@ -39,3 +39,17 @@ Criar os typescripts de forma automática.
 `npm run gulp`: Watch do gulp que fica observando e compilando o código no dist;
 
 `npm run dev`: Executa o servidor nodemon atualizando a cada 5 segundos;
+
+# Nodejs - Express
+
+O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.
+
+Com uma miríade de métodos utilitários HTTP e middleware a seu dispor, criar uma API robusta é rápido e fácil.
+
+[expressjs.com](https://expressjs.com/pt-br/ "expressjs.com")
+
+# Definições de tipos
+
+Definições de tipos para typescript.
+
+`npm i -D -E @types/express @types/node`
