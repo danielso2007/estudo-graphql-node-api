@@ -53,3 +53,16 @@ Com uma miríade de métodos utilitários HTTP e middleware a seu dispor, criar 
 Definições de tipos para typescript.
 
 `npm i -D -E @types/express @types/node`
+
+# Instalando o GraphQl no Node
+
+`npm i -S express-graphql graphql graphql-tools`
+
+# Definições de tipos para GraphQl
+
+`npm i -D -E @types/express-graphql @types/graphql`
+
+# Corrigindo erro ao instalar os pacotes do Graphql
+
+https://github.com/apollographql/graphql-subscriptions/issues/83
+
