@@ -1,8 +1,13 @@
 {
   "name": "graphql-node-api",
   "version": "0.1.0",
+  "private": true,
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danielso2007/estudo-graphql-node-api.git"
+  },
   "scripts": {
     "build": "node_modules/.bin/tsc",
     "gulp": "node_modules/.bin/gulp",
