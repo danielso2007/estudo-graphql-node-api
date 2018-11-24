@@ -17,9 +17,3 @@ All notable changes to this project will be documented in this file. See [standa
 * Resolvers triviais. ([4f2a7c8](https://github.com/danielso2007/estudo-graphql-node-api/commit/4f2a7c8))
 * Restart do servidor com nodemon. ([7197aee](https://github.com/danielso2007/estudo-graphql-node-api/commit/7197aee))
 * Testando com GraphiQL. ([c10a96b](https://github.com/danielso2007/estudo-graphql-node-api/commit/c10a96b))
-
-
-
-# Change Log
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
