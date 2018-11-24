@@ -14,6 +14,14 @@ Gerenciador de versionamento de instalação do Nodejs
 
 Atualizando npm: `npm i -g npm`
 
+# Instalando as dependências do NPM
+
+Utilizar: `npm i -D -E <pacote>`
+
+`-D`: Instalar no devDependencies;
+
+`-E`: Instalar a versão exata.
+
 # Plugin VSCODE
 
 Ícones no VSCode. Trocar em:* File > Preferences > File Icon Theme*
@@ -26,7 +34,8 @@ Criar os typescripts de forma automática.
 
 `npm i -D -E gulp gulp-typescript gulp-clean`
 
+# Executando a aplicação
 
+`npm run gulp`: Watch do gulp que fica observando e compilando o código no dist;
 
-
-
+`npm run dev`: Executa o servidor nodemon atualizando a cada 5 segundos;
