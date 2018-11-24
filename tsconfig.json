@@ -20,6 +20,8 @@
             "esnext.asynciterable"
         ]
     },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "compileOnSave": false,
     "include": [
         "src/**/*.ts"

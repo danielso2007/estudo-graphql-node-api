@@ -133,3 +133,35 @@ npm run release -- --release-as 1.0.0
 # Shields para README
 
 [Shields.io](https://shields.io/#/)
+
+# Sequelize - ORM - NodeJs
+
+Sequelize é um ORM baseado em promessa para o Node.js v4 e superior. Ele suporta os dialetos PostgreSQL, MySQL, SQLite e MSSQL e oferece suporte a transações sólidas, relações, replicação de leitura e muito mais.
+
+[docs.sequelizejs.com](http://docs.sequelizejs.com/)
+
+`npm i -S -E sequelize`
+
+`npm i -D -E @types/sequelize`
+
+### And one of the following:
+
+`$ npm install -S -E pg pg-hstore`
+`$ npm install --save mysql2`
+`$ npm install --save sqlite3`
+`$ npm install --save tedious // MSSQL`
+
+### Sequelize Cli
+
+`npm i -g sequelize-cli`
+
+`sequelize init:config --config src/config/config.json`
+
+# bcrypt.js
+
+Bcrypt otimizado em JavaScript com dependências zero. Compatível com a ligação bcrypt do C ++ em node.js e também trabalhando no navegador.
+
+`npm i -S -E bcryptjs`
+
+`npm i -D -E @types/bcryptjs`
+
