@@ -21,6 +21,7 @@
     "host": "127.0.0.1",
     "dialect": "postgres",
     "protocol": "postgres",
+    "logging": false,
     "pool": {
       "max": 5,
       "min": 0,

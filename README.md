@@ -192,3 +192,35 @@ Transforma GraphQLResolveInfo em um mapa dos campos solicitados. Flattens todos 
 O DataLoader é um utilitário genérico a ser usado como parte da camada de busca de dados do aplicativo para fornecer uma API simplificada e consistente em várias fontes de dados remotas, como bancos de dados ou serviços da Web, por meio de lotes e caching.
 
 `npm i -S -E dataloader` 
+
+# Testes
+
+## Mochajs
+
+O Mocha é um framework de teste JavaScript rico em recursos, rodando em Node.js e no navegador, tornando os testes assíncronos simples e divertidos . Os testes Mocha são executados em série, permitindo relatórios flexíveis e precisos, enquanto mapeiam exceções não detectadas para os casos de teste corretos. Hospedado no GitHub .
+
+https://mochajs.org/
+
+## Chaijs
+
+A API do Chai é dividida por estilo ou tarefa.
+
+- Estilos de Asserção
+  - A API Expect / Should abrange os estilos de declaração do BDD.
+  - A API Assert abrange o estilo de asserção TDD.
+- Plugins
+  - A Plugin API será útil para qualquer pessoa interessada em construir plugins como ajudantes para DRY up seus testes, ou para o lançamento para a comunidade.
+- Ferramentas
+  - O Online Test Suite é um live run da suíte de testes do Chai. Use-o para garantir a compatibilidade do navegador.
+
+https://www.chaijs.com/api/
+
+`npm i -D -E mocha chai chai-http`
+
+`npm i -D -E @types/mocha @types/chai @types/chai-http`
+
+`npm i -D -E ts-node`
+
+# nyc
+
+`npm i nyc -D -E`
