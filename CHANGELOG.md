@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/danielso2007/estudo-graphql-node-api/compare/v1.0.0...v1.1.0) (2018-11-25)
+
+
+### Features
+
+* clusters. ([adf2557](https://github.com/danielso2007/estudo-graphql-node-api/commit/adf2557))
+* Instalado o PM2. ([594e02c](https://github.com/danielso2007/estudo-graphql-node-api/commit/594e02c))
+* Teste finalizados. ([df03f3c](https://github.com/danielso2007/estudo-graphql-node-api/commit/df03f3c))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/danielso2007/estudo-graphql-node-api/compare/v0.1.0...v1.0.0) (2018-11-25)
 
