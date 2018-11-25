@@ -45,3 +45,5 @@ export const throwError = (condition: boolean, message: string): void => {
 };
 
 export const JWT_SECRET: string = process.env.JWT_SECRET;
+
+export const getToken = (authorization: string): string => authorization ? authorization.split(' ')[1] : undefined;

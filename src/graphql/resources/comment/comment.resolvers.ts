@@ -9,6 +9,7 @@ import { authResolvers } from "../../composable/auth.resolver";
 import { AuthUser } from "../../../interfaces/AuthUserInterface";
 import { DataLoaders } from "../../../interfaces/DataLoadersInterface";
 import { RequestedFields } from "../../ast/RequestedFields";
+import { verifyTokenResolver } from "../../composable/verify-token.resolver";
 
 export const commentResolvers = {
 
@@ -30,7 +31,7 @@ export const commentResolvers = {
 
     Query: {
 
-        commentsByPost: compose()((parent, {postId, first = 10, offset = 0}, {db, requestedFields}: {db: DbConnection, requestedFields: RequestedFields}, info: GraphQLResolveInfo) => {
+        commentsByPost: compose(verifyTokenResolver)((parent, {postId, first = 10, offset = 0}, {db, requestedFields}: {db: DbConnection, requestedFields: RequestedFields}, info: GraphQLResolveInfo) => {
             postId = parseInt(postId);
             return db.Comment
                 .findAll({
@@ -77,7 +78,7 @@ export const commentResolvers = {
                         throwError(!comment, `Comment with id ${id} not found!`);
                         throwError(comment.get('user') != authUser.id, `Unauthorized! You can only delete comments by yourself!`);
                         return comment.destroy({transaction: t})
-                            .then(comment => !!comment);
+                            .then((comment: any) => !!comment);
                     });
             }).catch(handleError);
         })

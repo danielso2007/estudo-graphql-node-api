@@ -9,6 +9,7 @@ import { postResolvers } from './resources/post/post.resolvers';
 import { tokenResolvers } from './resources/token/token.resolvers';
 import { userResolvers } from './resources/user/user.resolvers';
 import { merge } from 'lodash';
+import { tokenTypes } from './resources/token/token.schema';
  
 const resolvers = merge(
     commentResolvers,
@@ -29,9 +30,10 @@ export default makeExecutableSchema({
         SchemaDefinition,
         Query,
         Mutation,
-        userTypes,
+        commentTypes,
         postTypes,
-        commentTypes
+        tokenTypes,
+        userTypes
     ],
     resolvers
 });

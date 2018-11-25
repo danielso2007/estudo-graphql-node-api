@@ -170,3 +170,25 @@ Bcrypt otimizado em JavaScript com dependências zero. Compatível com a ligaç�
 Uma moderna biblioteca de utilitários JavaScript que oferece modularidade, desempenho e extras.
 
 `npm i -S -E lodash && npm i -D -E @types/lodash`
+
+# JWT
+
+Os JSON Web Tokens são um método RFC 7519 padrão da indústria aberto  para representar declarações com segurança entre duas partes.
+
+O JWT.IO permite decodificar, verificar e gerar o JWT.
+
+# jsonwebtoken
+
+`npm i -E -S jsonwebtoken && npm i -E -D @types/jsonwebtoken`
+
+# graphql-fields
+
+Transforma GraphQLResolveInfo em um mapa dos campos solicitados. Flattens todos os fragmentos e campos duplicados em um objeto limpo para ver facilmente quais campos foram solicitados em qualquer nível.
+
+`npm i -E -S graphql-fields`
+
+# DataLoader
+
+O DataLoader é um utilitário genérico a ser usado como parte da camada de busca de dados do aplicativo para fornecer uma API simplificada e consistente em várias fontes de dados remotas, como bancos de dados ou serviços da Web, por meio de lotes e caching.
+
+`npm i -S -E dataloader` 

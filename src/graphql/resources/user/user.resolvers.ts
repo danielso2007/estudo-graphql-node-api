@@ -9,6 +9,7 @@ import { compose } from "../../composable/composable.resolver";
 import { authResolvers } from "../../composable/auth.resolver";
 import { RequestedFields } from "../../ast/RequestedFields";
 import { ResolverContext } from "../../../interfaces/ResolverContextInterface";
+import { verifyTokenResolver } from "../../composable/verify-token.resolver";
 
 export const userResolvers = {
 
@@ -101,7 +102,7 @@ export const userResolvers = {
                     .then((user: UserInstance) => {
                         throwError(!user, `User with id ${authUser.id} not found!`);
                         return user.destroy({ transaction: t })
-                            .then(user => !!user);
+                            .then((user: any) => !!user);
                     });
             }).catch(handleError);
         })

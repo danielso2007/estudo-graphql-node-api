@@ -10,6 +10,7 @@ import { authResolvers } from "../../composable/auth.resolver";
 import { AuthUser } from "../../../interfaces/AuthUserInterface";
 import { DataLoaders } from "../../../interfaces/DataLoadersInterface";
 import { ResolverContext } from '../../../interfaces/ResolverContextInterface';
+import { verifyTokenResolver } from '../../composable/verify-token.resolver';
 
 export const postResolvers = {
 
@@ -92,7 +93,7 @@ export const postResolvers = {
                         throwError(!post, `Post with id ${id} not found!`);
                         throwError(post.get('author') != authUser.id, `Unauthorized! You can only delete posts by yourself!`);
                         return post.destroy({transaction: t})
-                            .then(post => !!post);
+                            .then((post: any) => !!post);
                     });
             }).catch(handleError);
         })
