@@ -224,3 +224,21 @@ https://www.chaijs.com/api/
 # nyc
 
 `npm i nyc -D -E`
+
+# CORS
+
+https://www.npmjs.com/package/cors
+
+`npm i -S -E cors && npm i -D -E @types/cors`
+
+# Compression
+
+https://www.npmjs.com/package/compression
+
+`npm i -S -E compression && npm i -D -E @types/compression`
+
+# Helmet
+
+https://www.npmjs.com/package/helmet
+
+`npm i -S -E helmet && npm i -S -E @types/helmet`
