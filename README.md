@@ -4,7 +4,7 @@
 </p>
 
 [![Build Status](https://travis-ci.org/danielso2007/estudo-graphql-node-api.svg?branch=master)](https://travis-ci.org/danielso2007/estudo-graphql-node-api)
-![version](https://img.shields.io/badge/version-0.1.0-blue.svg)
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![GitHub package version](https://img.shields.io/github/package-json/v/danielso2007/estudo-graphql-node-api.svg)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/danielso2007/estudo-graphql-node-api.svg)](https://github.com/danielso2007/estudo-graphql-node-api/pulls)
 [![GitHub issues](https://img.shields.io/github/issues/danielso2007/estudo-graphql-node-api.svg)](https://github.com/danielso2007/estudo-graphql-node-api/issues?q=is%3Aopen+is%3Aissue)
@@ -122,7 +122,7 @@ _Algumas regras:_
 ### Gerando o CHANGELOG do projeto
 
 ```sh
-npm run release -- --release-as 1.0.0
+npm run release -- --release-as 1.1.0
 ```
 
 ### Referências:
