@@ -242,3 +242,11 @@ https://www.npmjs.com/package/compression
 https://www.npmjs.com/package/helmet
 
 `npm i -S -E helmet && npm i -S -E @types/helmet`
+
+# PM2
+
+O PM2 é um gerenciador de processo e tempo de execução de produção para aplicativos Node.js com um balanceador de carga integrado. Ele permite que você mantenha os aplicativos ativos para sempre, para recarregá-los sem tempo de inatividade e facilitar as tarefas comuns do Devops.
+
+`npm i -g pm2`
+
+https://www.npmjs.com/package/pm2

@@ -10,9 +10,9 @@
   },
   "scripts": {
     "clusters": "NODE_ENV=production port=8080 node dist/clusters",
-    "build": "npm run gulp build",
-    "start": "npm run build && npm run clusters",
     "build": "node_modules/.bin/tsc",
+    "production": "npm run build && pm2 start dist/clusters.js --name graphql-node-api",
+    "start": "npm run build && npm run clusters",
     "gulp": "node_modules/.bin/gulp",
     "dev": "NODE_ENV=development JWT_SECRET=iron_man node_modules/.bin/nodemon --delay 5 dist/index",
     "release": "standard-version",
